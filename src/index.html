@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Tailwind Test</title>
+</head>
+<body class="bg-lime-100 ">
+    <header class="bg-lime-950">
+        <div class="flex justify-between"> 
+            <h1 class="font-bold m-4 text-green-50 text-2xl"> 
+            Food Tutorial</h1>
+            <nav class="m-1 max-[600px]:invisible md:visible">
+                <div class="flex
+                max-[600px]:visible 
+                size-2">
+                </div>
+                <ul class= "flex m-4 text-green-50 ">
+                    <li class="pr-2 hover:cursor-pointer">Home</li>
+                    <li class="pr-2">Contact</li>
+                    <li class="pr-2">About us</li>
+                    <li><i class="fa-regular fa-bars   size-2"></i></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+            <div class="grid
+                        gap-7
+                        justify-center 
+                        m-4
+                        md:grid 
+                        grid-rows-3
+                        grid-flow-col 
+                        gap-4">
+
+            <div class="bg-green-50 
+                        rounded-lg 
+                        overflow-hidden
+                        shadow-md
+                        col-span-2
+                        md:row-span-3">
+
+                <img class="w-full
+                            h-4/6" 
+                src="./public/kebab.jpg" 
+                alt="kebab">
+
+                <p class="m-2
+                          color-green-950 
+                          font-bold
+                          ">
+                          Kebab - By Ali</p>
+            </div>
+
+            <div class="bg-green-50  
+                        rounded-lg 
+                        overflow-hidden
+                        shadow-md
+                        col-span-2
+                        md:col-span-2">
+
+                <img class="w-full
+                            h-4/6" 
+                src="./public/qorme.jpg" 
+                alt="qorme">
+
+                <p class="m-2
+                          color-green-950 
+                          font-bold">
+                          Ghorme Sabzi - By Shamim</p>
+            </div>
+
+            <div class="bg-green-50  
+                        rounded-lg 
+                        overflow-hidden
+                        shadow-md
+                        col-span-2
+                        md:row-span-3
+                        ">
+        
+                <img class="w-full
+                            h-4/6" 
+                src="./public/chilli.jpg" 
+                alt="chilli">
+        
+                <p class="m-2
+                          color-green-950 
+                          font-bold">
+                          Chilli Bean - By Dean</p>
+             </div>
+      </div>
+
+    </main>
+
+    <footer>
+        <div class="bg-green-900
+        w-47
+        ">
+          <p class="flex 
+          text-green-50
+          items-center
+          justify-center
+          h-12 ">Stay Healthy | Have fun</p>
+        </div>
+    </footer>
+</body>
+</html>
